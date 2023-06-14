@@ -1,0 +1,30 @@
+.table-custom {
+    width: 100%;
+    max-width: 800px;
+    table-layout: fixed;
+  }
+  
+  .table-custom th,
+  .table-custom td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table-custom th {
+    font-size: 19px;
+  }
+  
+  .table-custom td {
+    font-size: 16px;
+    width: 25%; /* Setiap kolom akan memiliki lebar 25% dari lebar tabel */
+  }
+  
+  /* Jarak antara kolom */
+  .table-custom th:not(:last-child),
+  .table-custom td:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  /* .btn {
+    font-size: 20px;
+  } */
